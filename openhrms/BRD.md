@@ -47,14 +47,14 @@ Patient data is private and the patient should have control over when and with w
    - A two-factor authentication(2FA) where when the physician searches for a patient and wants to read the patient details, the patient approves the request by either sms, USSD, app or email click(TBD at the definition of technical design docs). THis should be an opt-in similar to most 2FAs
 4. Doctors who can use the system need to be vetted and approved prior. They need to agree to binding T&Cs to protect user privacy
 5. Define Doctor Privileges:
-   a. A doctor can only alter current visit details if they are the doctor in charge,
-   b. Previous visits even by same doctor are in read mode
-   c. Patients can’t edit the medical records
-   d. Doctor can’t access personal info unrelated to medical records like patient ID number, phone number etc. Anonymizing the patient personal info can enable docs to perform and publish research findings without risk of revealing patient data.
-   e. Doctors can access anonymized records of different patients with similar symptoms/prognosis/diagnosis if they need to compare notes.
-6. Define Patient Privileges  
-   a. They can only access medical records in read mode
-   b. They can access their profiles in edit mode
+   - A doctor can only alter current visit details if they are the doctor in charge,
+   - Previous visits even by same doctor are in read mode
+   - Patients can’t edit the medical records
+   - Doctor can’t access personal info unrelated to medical records like patient ID number, phone number etc. Anonymizing the patient personal info can enable docs to perform and publish research findings without risk of revealing patient data.
+   - Doctors can access anonymized records of different patients with similar symptoms/prognosis/diagnosis if they need to compare notes.
+6. Define Patient Privileges
+   - They can only access medical records in read mode
+   - They can access their profiles in edit mode
 
 ## Conclusion
 
