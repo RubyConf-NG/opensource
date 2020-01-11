@@ -42,15 +42,6 @@ The system would contain two modules, the administration module and the client m
 
 N/B: UML(Unified Modeling Language) Diagrams to be added by Gloria, then we update the modules and features involved.
 
-## Features
-
-- The system forms an easy to access online visiting platform for doctors.
-
-## Objectives
-
-- To optimize getting a patients’ history
-- To link various hospitals to one another
-
 ## PRIVACY 
 
 Patient data is private and the patient should have control over when and with whom to share their data with. This said, it should also fit it seamlessly with current processes. The system should take several measures to protect privacy. These include:
