@@ -43,18 +43,18 @@ Patient data is private and the patient should have control over when and with w
 1. A patient should give explicit consent to have their data stored in the system. This should be explained clearly during the initial visit by whoever is in charge.
 2. Try as much as possible to keep data in most of the system as private. This means not requiring users to enter names, or government identification numbers(ID or Passport No.) at every turn. Once initial registration is done, a user can be assigned a random number from the system. This number would be used as the patient’s identification throughout the system, instead of doctors, lab technicians or pharmacists asking the patient for names/ID docs, they would request this number and proceed to offer their services
 3. For a new doctor/physician to access the patient’s previous records, they should get authorization from the patient. This could be structured as:
-    a.  Patient gives the Doc their Patient no from the system. The doc can then proceed to search for their previous records from other doctors. This could be treated as consent.
-    b. A two-factor authentication(2FA) where when the physician searches for a patient and wants to read the patient details, the patient approves the request by either sms, USSD, app or email click(TBD at the definition of technical design docs). THis should be an opt-in similar to most 2FAs
+   a.  Patient gives the Doc their Patient no from the system. The doc can then proceed to search for their previous records from other doctors. This could be treated as consent.
+   b. A two-factor authentication(2FA) where when the physician searches for a patient and wants to read the patient details, the patient approves the request by either sms, USSD, app or email click(TBD at the definition of technical design docs). THis should be an opt-in similar to most 2FAs
 4. Doctors who can use the system need to be vetted and approved prior. They need to agree to binding T&Cs to protect user privacy
 5. Define Doctor Privileges:
-    a. A doctor can only alter current visit details if they are the doctor in charge,
-    b. Previous visits even by same doctor are in read mode
-    c. Patients can’t edit the medical records
-    d. Doctor can’t access personal info unrelated to medical records like patient ID number, phone number etc. Anonymizing the patient personal info can enable docs to perform and publish research findings without risk of revealing patient data.
-    e. Doctors can access anonymized records of different patients with similar symptoms/prognosis/diagnosis if they need to compare notes.
+   a. A doctor can only alter current visit details if they are the doctor in charge,
+   b. Previous visits even by same doctor are in read mode
+   c. Patients can’t edit the medical records
+   d. Doctor can’t access personal info unrelated to medical records like patient ID number, phone number etc. Anonymizing the patient personal info can enable docs to perform and publish research findings without risk of revealing patient data.
+   e. Doctors can access anonymized records of different patients with similar symptoms/prognosis/diagnosis if they need to compare notes.
 6. Define Patient Privileges
-    a. They can only access medical records in read mode
-    b. They can access their profiles in edit mode
+   a. They can only access medical records in read mode
+   b. They can access their profiles in edit mode
 
 ## Conclusion
 
