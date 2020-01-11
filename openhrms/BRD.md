@@ -6,9 +6,9 @@ _Business Requirements Document_
 
 Some of the important and crucial questions that  doctors/physicians wish could be answered are:
 
-1 Have these symptoms re-occurred before?
-2. Was he/she treated successfully?
-3. Were there any complications resulting from the use of the drugs administered to the patient in their previous diagnosis assessment?
+  1. Have these symptoms re-occurred before?
+  2. Was he/she treated successfully?
+  3. Were there any complications resulting from the use of the drugs administered to the patient in their previous diagnosis assessment?
 
 These questions could easily be answered by what doctors term as “Clerking” which is basically getting history about a patient.
 
