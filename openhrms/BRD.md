@@ -52,7 +52,7 @@ Patient data is private and the patient should have control over when and with w
    c. Patients can’t edit the medical records
    d. Doctor can’t access personal info unrelated to medical records like patient ID number, phone number etc. Anonymizing the patient personal info can enable docs to perform and publish research findings without risk of revealing patient data.
    e. Doctors can access anonymized records of different patients with similar symptoms/prognosis/diagnosis if they need to compare notes.
-6. Define Patient Privileges
+6. Define Patient Privileges  
    a. They can only access medical records in read mode
    b. They can access their profiles in edit mode
 
