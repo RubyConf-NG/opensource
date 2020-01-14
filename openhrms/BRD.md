@@ -21,6 +21,23 @@ In the existing healthcare management systems, there is a high chance of misinfo
 The main purpose for the proposed project is to link hospitals together. This will create an interface for pulling records of a patient from the hospitals stated to have their records. 
 The other reason is to enforce more interconnectivity between hospitals such that doctors/physicians can be more accountable with how they diagnose and treat their patients.
 
+## Introduction
+
+ntroduction:
+An Electronic Medical Record (EMR) is a digital application that enables hospitals to store patients’ records electronically. Most health institutions still store patients’ information manually using traditional paper records. There are so many downsides to the use of paper records that electronic records have been able to solve. With EMRs, information is easily accessible anytime and anywhere offline and/or online and since it’s a more concise way of keeping records, doctors can make well-informed treatment decisions that are free of human error from the misinterpretation of hand written records, etc.
+
+EMRs provide patients with quick access to a more coordinated and efficient patient-centered health system. In the typical African hospital setting, it takes a long time from when a patient arrives at the hospital, till when the patient is actually attended to. But EMRs help to reduce all that time wasting and inefficiency by simplifying the workflow in hospitals and providing easy access to a patient’s record, thereby saving time and energy.
+
+By adopting EMRs, accurate and up-to-date information about a patient is available at any point of his/her continuum of care. For instance, when a patient visits another part of the country or even world, we all know the long process it’ll take to be able get his/her medical history or background most especially in an emergency. This process is even longer if there is a need to share the patient’s old paper medical records with the health care provider in the new location. First, there is the sometimes arduous process of locating the file then the unnecessary protocols that must be followed before the information is sent. Not leaving out the long wait before the document is actually received. If it’s in an emergency situation, the effects could be deleterious. Sometimes a patient’s account alone is not sufficient either for regular medical encounters or emergency situations as very critical information could be left out by the patient. Using an EMR provides an easy means for the patients’ records to be transferred between health care providers safely and quickly.
+
+Another advantage of adopting electronic records is that it ensures the privacy and security of the patients’ data. It further secures the sharing of a patient’s records with other medical practitioners so the patient doesn’t have to worry about the safety of his/her medical records. We’ve heard of cases and emergency situations where a patient’s file could not be located either due to the carelessness of the nurse, hospital medical records staff and/or doctors. Neither does a patient have to worry about his/her records getting into the wrong hands as is very possible and common with paper records.
+
+EMRs also help to reduce cost by reducing the inadvertent repetition and duplication of laboratory tests and decreasing paperwork. It also enables safer and more reliable prescription of medication.
+
+EMRs help to reduce stress. Less stress means that the work-leisure balance of health professionals is also improved. This in turn increases their productivity.
+
+The increased uptake and use of EMRs in the African healthcare system would go a long way in improving the efficiency of health care providers in delivering the best patient centered care possible.
+
 ## Modules to be used / Scope of the project
 
 The system would contain two modules, the administration module and the client module. The administration module mainly deals with all the health records management details such as the different hospitals, departments and staff. The client module, on the other hand, mainly includes doctors, patients etc.
