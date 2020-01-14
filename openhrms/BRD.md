@@ -36,6 +36,22 @@ N/B: UML(Unified Modeling Language) Diagrams to be added by Gloria, then we upda
 - To optimize getting a patients’ history
 - To link various hospitals to one another
 
+## Data to be Captured:
+
+1. **Patient’s first name**: The patient’s first name
+1. **Patient’s surname**: The patient’s surname
+1. **Patient’s age**: The patient’s age
+1. **Patient’s gender**: The patient’s gender
+1. **Patient’s illness**: The patient’s illness at every diagnosis
+1. **Patient’s address**: The patient’s house address
+1. **Patient’s occupation**: The patient’s occupation
+1. **Patient’s medical attendant**: The full name of the patient’s medical attendant
+1. **Patient’s medical organization**: The full name of the patient’s medical organization where he is being attended to.
+1. **Patient’s social info**: The patient’s social info such as Facebook, Twitter and LinkedIn
+1. **Patient’s drugs**: The names of the drugs and dosage that are prescribed to a patient during every treatment.
+1. **Patient’s diagnosis**: The type of diagnosis that the patient undergoes for every illness.
+1. **Patient’s treatment cost**: The cost of the patient’s treatment for every illness
+
 ## PRIVACY 
 
 Patient data is private and the patient should have control over when and with whom to share their data with. This said, it should also fit it seamlessly with current processes. The system should take several measures to protect privacy. These include:
