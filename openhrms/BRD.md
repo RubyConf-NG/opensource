@@ -42,16 +42,26 @@ The increased uptake and use of EMRs in the African healthcare system would go a
 
 The system would contain two modules, the administration module and the client module. The administration module mainly deals with all the health records management details such as the different hospitals, departments and staff. The client module, on the other hand, mainly includes doctors, patients etc.
 
+## Features of the System
+
+This product is an electronic medical records (EMR) system. It is not a hospital management system (HMS) or a billing system (BS). Here are some of the features of the system:
+
+1. **CRUD Operations**: The system should be able to allow data manipulation in the form of create, read, update and delete by authorized individuals.
+1. **Export and Import**: The system should be able to import data into the system and export data out of the system as .csv or .xls file formats whenever they are needed.
+1. **Filter and Sort**: The system should be able to permit sorting of data by certain parameters and filtering of data by certain values.
+1. **Search**: The system should be able to allow data to be searched or looked-up by certain values as necessary
+1. **Audit Trail**: The system should be able to provide an activity log, so that you can follow the trails of modifications on any item.
+1. **Access Permission**: The system should be able to keep control over who has access to which content of an individual.
+1. **Notification Center**: The system should have a notification center to track important/relevant updates as they pop up.
+1. **Dashboard**: The system should have a decent dashboard that enables you structurally explore and keep tabs on all the relevant KPIs you need to manage your health history.
+1. **Analytics**: The system should be able to keep track of user activity and monitor the performance indicators that matter at a record level. Records such as Active users per month, orders for a particular drug per month, total usage of the system, the number of patients suffering from a particular illness per year. This record should only be accessible by the administrators of the system, as it’s very crucial for privacy reasons.
+1. **Third party integrations**: The system should be able to provide an API suite for third-party applications to integrate into it and fetch authorized data.
+
+## Modules to be used / Scope of the project
+
+The system would contain two modules, the administration module and the client module. The administration module mainly deals with all the health records management details such as the different hospitals, departments and staff. The client module, on the other hand, mainly includes doctors, patients etc.
+
 N/B: UML(Unified Modeling Language) Diagrams to be added by Gloria, then we update the modules and features involved.
-
-## Features
-
-- The system forms an easy to access online visiting platform for doctors.
-
-## Objectives
-
-- To optimize getting a patients’ history
-- To link various hospitals to one another
 
 ## Data to be Captured:
 
