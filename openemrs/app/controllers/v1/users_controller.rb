@@ -5,8 +5,7 @@
 module V1
   class UsersController < ApplicationController
     def create
-      user = User.create!(user_params)
-      json_response(object: user, status: :created)
+      User.create!(user_params)
     end
 
     private

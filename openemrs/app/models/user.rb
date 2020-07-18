@@ -1,14 +1,20 @@
 class User < ApplicationRecord
+  include GenerateUid
+
   rolify
   has_secure_password
 
   self.primary_key = :uid
 
-  after_create :assign_default_role
+  # validations
+  validates_date :date_of_birth
+
+  # callbacks
+  before_create :set_uid
 
   private
 
-  def assign_default_role
-    self.add_role(:patient) if self.roles.blank?
+  def set_uid
+    self.uid = generate_uid
   end
 end
