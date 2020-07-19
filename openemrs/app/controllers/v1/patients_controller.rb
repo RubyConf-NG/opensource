@@ -2,7 +2,7 @@
 
 module V1
   # V1 patients controller
-  class PatientsController < UsersController
+  class PatientsController < ApplicationController
     def create
       patient = User.create!(patient_params)
       patient.add_role(:patient) if patient.roles.blank?
