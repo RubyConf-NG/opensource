@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   include GenerateUid
+  REGEX = /\A([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
 
   rolify
   has_secure_password
@@ -9,7 +10,9 @@ class User < ApplicationRecord
   # validations
   validates_date :date_of_birth
   validates_presence_of :name, :email, :date_of_birth
-  validates_uniqueness_of :email
+  validates :email,
+            format: { with: REGEX },
+            uniqueness: { case_sensitive: false }
 
   # callbacks
   before_create :set_uid

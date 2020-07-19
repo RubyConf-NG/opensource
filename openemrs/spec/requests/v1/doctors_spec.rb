@@ -4,7 +4,6 @@
 
 require "rails_helper"
 
-
 RSpec.describe "V1::DoctorsController", type: :request do
   let(:params) { attributes_for(:user) }
 
