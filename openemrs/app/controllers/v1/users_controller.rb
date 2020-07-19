@@ -2,7 +2,7 @@
 
 # V1 Users controller
 
-module V1
+module V1#
   class UsersController < ApplicationController
     def create
       User.create!(user_params)

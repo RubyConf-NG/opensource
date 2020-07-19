@@ -8,7 +8,7 @@ ValidatesTimeliness.setup do |config|
   # Set the dummy date part for a time type values.
   # config.dummy_date_for_time_type = [ 2000, 1, 1 ]
   #
-  # Ignore errors when restriction options are evaluated
+  # Ignore error when restriction options are evaluated
   # config.ignore_restriction_errors = false
   #
   # Re-display invalid values in date/time selects
