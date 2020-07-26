@@ -9,15 +9,24 @@ RSpec.describe "V1::DoctorsController", type: :request do
 
   describe "#create" do
     context "when user passes in valid doctor params" do
+      let(:expected_doctor) {
+        {
+          name: params[:name],
+          email: params[:email],
+          phone_number: params[:phone_number],
+          date_of_birth: params[:date_of_birth],
+          gender: params[:gender],
+          roles: ["Doctor"]
+        }.as_json
+      }
       it "should create a doctor with a default role" do
+        post v1_doctors_path, params: params
+        expect(json["data"]["doctor"]).to include(expected_doctor)
+      end
+
+      it "should increase the size of the users table by 1" do
         expect do
           post v1_doctors_path, params: params
-          returned_doctor = json["data"]["doctor"]
-          expect(response).to have_http_status 201
-          expect(returned_doctor["name"]).to eq params[:name]
-          expect(returned_doctor["email"]).to eq params[:email]
-          expect(returned_doctor["date_of_birth"]).to eq params[:date_of_birth].to_s
-          expect(returned_doctor["roles"]).to include "Doctor"
         end.to change(User, :count).by 1
       end
     end
@@ -28,20 +37,27 @@ RSpec.describe "V1::DoctorsController", type: :request do
         post v1_doctors_path, params: params
       end
 
+      it "returns 422 as the status code" do
+        expect(response).to have_http_status 422
+      end
+
       it "returns an error" do
         errors = json["errors"].first
-        expect(response).to have_http_status 422
         expect(errors["date_of_birth"]).to include("can't be blank")
       end
     end
 
     context "when email already exists" do
-      before { post v1_doctors_path, params: params }
+      before do
+        2.times { post v1_doctors_path, params: params }
+      end
+
+      it "returns 422 as the status code" do
+        expect(response).to have_http_status 422
+      end
 
       it "returns an error" do
-        post v1_doctors_path, params: params
         errors = json["errors"].first
-        expect(response).to have_http_status 422
         expect(errors["email"]).to include("has already been taken")
       end
     end
